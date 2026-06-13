@@ -1,0 +1,15 @@
+Theera of big data has profoundly transformed mechanicsresearch, withdata-driven approaches playing a vital role in model
+ing and optimization. This study focuses on tunnel boring machine (TBM), where the thrust-torque ratio is a key determinant
+of their tunneling energy efficiency. However, due to the complexity of experiments and the testing requirements, obtaining
+sufficient high-quality data under varying geological conditions remains a major challenge in optimizing the tunneling energy
+efficiency of TBM. To address this, multi-cutter rotary cutting machine experiments and numerical simulations were con
+ducted on 22 different rock types. Comprehensive datasets of normal and rolling forces were systematically collected. Using
+specific energy (SE) as the rock-breaking efficiency metric, we integrated physical and numerical data through a CatBoost
+based fusion framework. The predictive model was initially trained on simulation data to capture the relationships among
+penetration, uniaxial compressive strength, tensile strength, and SE, and was subsequently fine-tuned with experimental data
+to develop the final fused model. Compared to models trained solely on experimental or simulated data, the fused model
+reduced RMSE by37.1%and58.6%,respectively, and improved R2 by 19.0% and 44.6%, thereby enhancing both prediction
+accuracy and generalization capability. Furthermore, Bayesian optimization was employed to minimize SE and identify the
+optimal penetration. The results indicate that as rock strength increases, the optimal penetration decreases, while the cor
+responding minimal SE increases. These findings provide theoretical and engineering insights for improving TBM energy
+efficiency and parameter optimization, while establishing a robust data fusion framework for mechanical data analysis.
